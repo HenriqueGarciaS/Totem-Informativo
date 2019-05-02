@@ -1,0 +1,38 @@
+body{
+    font: 12px verdana;
+    background-color: #00A7C2;
+}
+
+#fundo{
+    width: 600px;
+    min-width: 390px;
+    height: 520px;
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.txt{
+    width: 11cm;
+    height: 1cm;
+}
+
+.btn{
+    background-color: #EE6A00;
+    width: 2cm;
+    height: 1cm;
+}
+
+#limite{
+    margin-bottom: 20px;
+}
+
+form{
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}

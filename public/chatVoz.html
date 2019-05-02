@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>watson-app</title>
+    <link rel='stylesheet' href='/stylesheets/watson.css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script src="js/watson.js"></script>
+    <script src="js/audioControl.js"></script>
+</head>
+
+<body>
+    <h1>Chatbot da PUC-Campinas</h1>
+    <div id="fundo">
+        <div id="limite" style="width: 600px; height: 470px; overflow-y: auto;">
+            <div id="chat"></div>
+        </div>
+        <form name="chatForm" method="post">
+            <input type="text" name="texto" placeholder="Faça uma pergunta para o bot da PUC-Campinas..." class="txt"/>
+            <input type="button" onClick="enviarMensagem();" value="Enviar" class="btn"> 
+	    <i id="recordButton" class="fas fa-microphone-alt" style="font-size: 40px;" onclick="controlRecording(this);"></i>         
+      </form>
+    </div>
+
+    <!--<h3>Recordings</h3>
+    <ol id="recordingsList"></ol>-->
+    
+</body>
+
+</html>
