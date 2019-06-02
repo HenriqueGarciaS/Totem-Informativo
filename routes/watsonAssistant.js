@@ -9,7 +9,7 @@ router.post('/',function(req,res,next){
 
     const params ={
         input:{ text } ,
-        workspace_id: 'c38a622d-4426-4e7a-93e8-b2b9f93200b8',
+        workspace_id: '18ab960f-47b2-4dce-a62e-46d5b685da82',
         context
     };
 
