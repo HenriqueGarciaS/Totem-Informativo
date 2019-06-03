@@ -1,31 +1,45 @@
 body{
     font: 12px verdana;
-    background-color: #00A7C2;
+    background-color: #8AE2FF;
 }
 
 #fundo{
     width: 600px;
     min-width: 390px;
     height: 520px;
-    background-color: #fff;
-    padding: 25px;
+    background-color: white;
+    padding: 75px 105px;
     margin: 20px auto;
 }
 
-h1{
-    text-align: center;
+
+
+#chat{
+    width: 600px;
+    height:450px;
 }
+
 
 .txt{
     width: 11cm;
     height: 1cm;
 }
 
-.btn{
-    background-color: #EE6A00;
-    width: 2cm;
-    height: 1cm;
-}
+
+
+.btn {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
 
 #limite{
     margin-bottom: 20px;
@@ -35,4 +49,15 @@ form{
     padding-right: 25px;
     padding-left: 25px;
     padding-bottom: 10px;
+}
+
+.div1{
+    background-color: dodgerblue;
+    padding: 50px;
+    color: #fff;
+}
+
+.div2{
+    padding-top: 20px;
+    border-block-start: 1px solid black;
 }
